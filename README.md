@@ -26,8 +26,8 @@
 ## Usage
 ####安装
 ```
-git clone https://gitee.com/daniel_lidg/ReactBoilerplate.git
-cd ReactBoilerplate
+git clone https://github.com/lidaguang1989/react-boilerplate.git
+cd react-boilerplate
 npm install
 ```
 ####本地开发

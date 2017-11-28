@@ -14,8 +14,8 @@ up our project.
 First, clone the repo and install the dependencies.
 
 ```
-git clone https://gitee.com/daniel_lidg/ReactBoilerplate.git
-cd ReactBoilerplate
+git clone https://github.com/lidaguang1989/react-boilerplate.git
+cd react-boilerplate
 npm install
 npm start
 ```

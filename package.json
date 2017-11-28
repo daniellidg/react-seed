@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "react-boilerplate",
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
@@ -9,9 +9,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "author": "daguang",
-  "license": "ISC",
-  "description": "",
+  "author": "Daguang Li",
+  "license": "MIT",
+  "description": "This repo is a boilerplate for webpack + react + react-router + redux + es6 + antd project. You could use it as a base to build your own web app.",
   "dependencies": {
     "antd": "^2.13.10",
     "fetch": "^1.1.0",
