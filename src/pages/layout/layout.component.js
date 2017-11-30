@@ -28,7 +28,7 @@ class Layout extends React.Component {
         return (
             <div>
                 <div className="layout-header">
-                    {this.props.title}
+                    <div>{this.props.title}</div>
                     <LogoutMenu logout={this.logout} loginInfo={this.props.loginInfo}></LogoutMenu>
                 </div>
                 <div className="layout-body">{this.props.children}</div>
