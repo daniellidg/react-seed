@@ -1,8 +1,10 @@
-本项目是基于React官方推荐的create-react-app命名创建的工程，包含了 webpack + react + react-router + redux + es6 + antd等技术，可作为开发模板使用。
+本项目是基于React官方推荐的create-react-app命令行工具创建的工程，包含了 webpack + react + react-router + redux + es6 + antd等技术，可作为开发模板使用。
 
 
 
 ##主要功能特征
+- 使用react-router路由
+- 使用redux进行组件间通信
 - 使用热加载，文件改变页面自动刷新
 - 使用 ESlint 检测 js
 - 使用 Fetch请求数据
