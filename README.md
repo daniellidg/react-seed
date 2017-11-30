@@ -14,7 +14,8 @@
 
 ####页面效果如下：
 
-![demo](./demo.png)
+![demo1](./demo1.png)
+![demo2](./demo2.png)
 
 
 ---------
