@@ -1,5 +1,5 @@
 
-This repo is a boilerplate for webpack + react + react-router + redux + es6 + antd project. You could use it as a base to build your own web app.
+This repo is a boilerplate for webpack + react + react-router + redux + es6 + antd + react-intl project. You could use it as a base to build your own web app.
 
 
 ### Requirements
