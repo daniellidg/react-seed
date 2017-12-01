@@ -14,8 +14,10 @@
 
 ####页面效果如下：
 
-![demo1](./demo1.png)
-![demo2](./demo2.png)
+![demo1](./screenshot/demo1.png)
+![demo2](./screenshot/demo2.png)
+![demo3](./screenshot/demo3.png)
+![demo4](./screenshot/demo4.png)
 
 
 ---------
@@ -43,6 +45,7 @@ npm run start
 ####生产打包
 ```
 npm run build
+serve -s build
 ```
 
 ## Linting

@@ -8,7 +8,7 @@ import LogoutMenu from '../../components/LogoutMenu/LogoutMenu'
 import constants from '../../common/constants'
 import methods from '../../common/methods'
 import { browserHistory } from 'react-router'
-import {injectIntl, FormattedMessage} from 'react-intl';
+import { FormattedMessage} from 'react-intl';
 
 class Layout extends React.Component {
     constructor(props) {

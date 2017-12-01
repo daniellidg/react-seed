@@ -39,7 +39,7 @@ const onEnter = (nextState, replace) => {
     let userToken = methods.getLocalStorage(constants.localKey.userToken);
     let nowTime = (new Date()).getTime();
     let diff = nowTime - userToken;
-    loggerService.log("diff:", diff);
+    loggerService.log("Token Invalid Time:", diff);
 
     // 模拟Token保存2个小时
     if (diff > constants.INVALID_TIME) {

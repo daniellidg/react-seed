@@ -20,7 +20,7 @@ class Home extends React.Component{
     componentDidMount() {
         let url = 'http://jsonplaceholder.typicode.com/posts';
         fetchService.get(url).then((response) => {
-            loggerService.log("response:", response);
+            loggerService.log("posts response:", response);
 
             this.setState({
                 data: response

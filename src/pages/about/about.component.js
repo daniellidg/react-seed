@@ -4,9 +4,10 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import methods from '../../common/methods'
-import { Switch, Icon } from 'antd';
+import { Switch } from 'antd';
 import setTitle from '../../redux/actions/layout'
 import { updateLanguage } from '../../redux/actions/common'
+import loggerService from '../../common/services/logger'
 
 class About extends React.Component{
     constructor(props) {
@@ -24,7 +25,7 @@ class About extends React.Component{
     }
 
     onChange(value) {
-        console.log("onChange:", value);
+        loggerService.log("onChange:", value);
 
         let langKey = value ? "en" : "zh";
         this.props.updateLanguage(langKey);
