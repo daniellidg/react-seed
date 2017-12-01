@@ -7,7 +7,43 @@ import setTitle from '../../redux/actions/layout'
 
 function Dashboard() {
     return (
-        <div>Dashboard</div>
+        <div>
+            <ul className="list-view">
+                <li>
+                    <div>
+                        <img src={require("../../images/login-logo.png")} alt="Logo"/>
+                        <p>AAA</p>
+                    </div>
+                    <div>15</div>
+                    <div></div>
+                </li>
+                <li>
+                    <div>
+                        <img src={require("../../images/login-logo.png")} alt="Logo"/>
+                        <p>AAA</p>
+                    </div>
+                    <div>15</div>
+                    <div></div>
+                </li>
+                <li>
+                    <div>
+                        <img src={require("../../images/login-logo.png")} alt="Logo"/>
+                        <p>AAA</p>
+                    </div>
+                    <div>15</div>
+                    <div>Good</div>
+                </li>
+                <li>
+                    <div>
+                        <img src={require("../../images/login-logo.png")} alt="Logo"/>
+                        <p>AAA</p>
+                    </div>
+                    <div>15</div>
+                    <div>Bad</div>
+                </li>
+            </ul>
+            <div className="chatbot-view">Chatbot</div>
+        </div>
     )
 }
 

@@ -4,7 +4,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
-import routes from './router/routes'
+import Translate from './router/translate'
 import store from "./redux/store/configureStore"
 
 import 'antd/dist/antd.css'
@@ -12,6 +12,6 @@ import './style/style.css'
 
 ReactDOM.render((
     <Provider store={store}>
-        {routes}
+        <Translate />
     </Provider>
 ), document.getElementById("root"));

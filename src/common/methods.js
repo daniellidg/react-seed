@@ -58,6 +58,19 @@ let methods = {
         } else {
             return localStorage.clear();
         }
+    },
+    getDefaultLanguage() {
+        switch(navigator.language.split('-')[0]){
+            case 'en':
+                return 'en';
+                break;
+            case 'zh':
+                return 'zh';
+                break;
+            default:
+                return 'en';
+                break;
+        }
     }
 };
 

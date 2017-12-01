@@ -8,6 +8,7 @@ import LogoutMenu from '../../components/LogoutMenu/LogoutMenu'
 import constants from '../../common/constants'
 import methods from '../../common/methods'
 import { browserHistory } from 'react-router'
+import {injectIntl, FormattedMessage} from 'react-intl';
 
 class Layout extends React.Component {
     constructor(props) {
@@ -28,14 +29,41 @@ class Layout extends React.Component {
         return (
             <div>
                 <div className="layout-header">
-                    <div>{this.props.title}</div>
+                    <div>
+                        {/*{this.props.title}*/}
+                        <FormattedMessage
+                            id = {"MENU_" + this.props.title.toUpperCase()}
+                            defaultMessage={'Home'}
+                        />
+                    </div>
                     <LogoutMenu logout={this.logout} loginInfo={this.props.loginInfo}></LogoutMenu>
                 </div>
                 <div className="layout-body">{this.props.children}</div>
                 <div className="layout-footer">
-                    <div className="nav-item"><Link to="/home">Home</Link></div>
-                    <div className="nav-item"><Link to="/dashboard">Dashboard</Link></div>
-                    <div className="nav-item"><Link to="/about">About</Link></div>
+                    <div className="nav-item">
+                        <Link to="/home">
+                            <FormattedMessage
+                                id="MENU_HOME"
+                                defaultMessage={'Home'}
+                            />
+                        </Link>
+                    </div>
+                    <div className="nav-item">
+                        <Link to="/dashboard">
+                            <FormattedMessage
+                                id="MENU_DASHBOARD"
+                                defaultMessage={'Dashboard'}
+                            />
+                        </Link>
+                    </div>
+                    <div className="nav-item">
+                        <Link to="/about">
+                            <FormattedMessage
+                                id="MENU_ABOUT"
+                                defaultMessage={'About'}
+                            />
+                        </Link>
+                    </div>
                 </div>
             </div>
         )

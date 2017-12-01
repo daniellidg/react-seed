@@ -6,6 +6,7 @@ import { connect } from 'react-redux'
 import fetchService from '../../common/services/fetch'
 import loggerService from '../../common/services/logger'
 import setTitle from '../../redux/actions/layout'
+import { Spin } from 'antd';
 
 class Home extends React.Component{
     constructor(props) {
@@ -23,7 +24,7 @@ class Home extends React.Component{
 
             this.setState({
                 data: response
-            })
+            });
         });
     }
 
@@ -37,10 +38,11 @@ class Home extends React.Component{
 
         return (
             <div>
-                {/*<h1>posts data:</h1>*/}
-                <ul>
-                    {elements}
-                </ul>
+                <Spin tip="载入中..." spinning={(this.state.data.length === 0)}>
+                    <ul>
+                        {elements}
+                    </ul>
+                </Spin>
             </div>
         )
     }
