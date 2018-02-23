@@ -18,7 +18,8 @@ class Home extends React.Component{
     }
 
     componentDidMount() {
-        let url = 'http://jsonplaceholder.typicode.com/posts';
+        // let url = 'http://jsonplaceholder.typicode.com/posts';
+        let url = './data/getPostsData.json';
         fetchService.get(url).then((response) => {
             loggerService.log("posts response:", response);
 
@@ -30,7 +31,7 @@ class Home extends React.Component{
 
     render() {
         let elements = this.state.data.map((item, index) => (
-            <li key={index}>
+            <li key={index} style={{background: "#eeeeee", margin: "1px 0px"}}>
                 <h2>{item.title}</h2>
                 <div>{item.body}</div>
             </li>

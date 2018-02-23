@@ -4,7 +4,7 @@
     width: 100%;
     height: 100%;
     line-height: 100%;
-    background: cadetblue;
+    background: #444;
 }
 .login-logo {
     text-align: center;
@@ -40,7 +40,7 @@
     width: 100%;
     height: 50px;
     line-height: 50px;
-    background-color: cadetblue;
+    background-color: #444;
     font-size: 18px;
     color: white;
     text-align: center;
@@ -55,7 +55,7 @@
     justify-content: space-around;
     bottom: 0;
     width: 100%;
-    background-color: cadetblue;
+    background-color: #444;
     z-index: 2;
 }
 .nav-item{
@@ -74,7 +74,7 @@
 }
 .menu-cadetblue{
     border-bottom: 0;
-    background: cadetblue;
+    background: #444;
     margin-top: -50px;
 }
 
@@ -89,7 +89,7 @@
     height: 90px;
     max-height: 90px;
     margin: 2px 0;
-    background-color: #fff3cf;
+    background-color: #eeeeee;
 }
 .list-view li div{
     margin: auto 0;
@@ -97,7 +97,7 @@
 }
 .chatbot-view{
     height: 100px;
-    background-color: lightgray;
+    background-color: #eeeeee;
 }
 
 /*About*/

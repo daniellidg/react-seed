@@ -11,7 +11,7 @@ function Dashboard() {
             <ul className="list-view">
                 <li>
                     <div>
-                        <img src={require("../../images/login-logo.png")} alt="Logo"/>
+                        <img style={{width: 50, height: 50}} src={require("../../images/icons8-registration-80.png")} alt="Logo"/>
                         <p>AAA</p>
                     </div>
                     <div>15</div>
@@ -19,7 +19,7 @@ function Dashboard() {
                 </li>
                 <li>
                     <div>
-                        <img src={require("../../images/login-logo.png")} alt="Logo"/>
+                        <img style={{width: 50, height: 50}} src={require("../../images/icons8-registration-80.png")} alt="Logo"/>
                         <p>AAA</p>
                     </div>
                     <div>15</div>
@@ -27,7 +27,7 @@ function Dashboard() {
                 </li>
                 <li>
                     <div>
-                        <img src={require("../../images/login-logo.png")} alt="Logo"/>
+                        <img style={{width: 50, height: 50}} src={require("../../images/icons8-registration-80.png")} alt="Logo"/>
                         <p>AAA</p>
                     </div>
                     <div>15</div>
@@ -35,14 +35,14 @@ function Dashboard() {
                 </li>
                 <li>
                     <div>
-                        <img src={require("../../images/login-logo.png")} alt="Logo"/>
+                        <img style={{width: 50, height: 50}} src={require("../../images/icons8-registration-80.png")} alt="Logo"/>
                         <p>AAA</p>
                     </div>
                     <div>15</div>
                     <div>Bad</div>
                 </li>
             </ul>
-            <div className="chatbot-view">Chatbot</div>
+            <div className="chatbot-view">View</div>
         </div>
     )
 }
