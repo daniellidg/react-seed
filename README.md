@@ -1,3 +1,5 @@
+[个人博客](https://lidaguang1989.github.io/)
+
 本项目是基于React官方推荐的create-react-app命令行工具创建的工程，包含了 webpack + react + react-router + redux + es6 + antd + react-intl等技术，可作为开发模板使用。
 
 
